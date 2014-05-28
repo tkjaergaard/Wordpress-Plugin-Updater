@@ -1,0 +1,24 @@
+{
+    "name": "tkj/wp-updater",
+    "description": "Update your custom Wordpress plugins from a custom source.",
+    "license": "MIT",
+    "tags": ["wordpress", "wp", "devdk"],
+    "authors": [
+        {
+            "name": "tkjaergaard",
+            "email": "tkj@tkjaergaard.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tkj\\Wordpress\\Updater\\": "src/Tkj/Wordpress/Updater"
+        }
+    }
+}
